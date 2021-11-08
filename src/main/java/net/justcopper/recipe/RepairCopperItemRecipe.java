@@ -1,6 +1,5 @@
 package net.justcopper.recipe;
 
-import com.google.common.collect.Lists;
 import net.justcopper.JustCopperTools;
 import net.minecraft.inventory.CraftingInventory;
 import net.minecraft.item.Item;
@@ -11,8 +10,6 @@ import net.minecraft.recipe.RecipeSerializer;
 import net.minecraft.recipe.SpecialCraftingRecipe;
 import net.minecraft.util.Identifier;
 import net.minecraft.world.World;
-
-import java.util.ArrayList;
 
 public class RepairCopperItemRecipe extends SpecialCraftingRecipe {
     public RepairCopperItemRecipe(Identifier identifier) {
