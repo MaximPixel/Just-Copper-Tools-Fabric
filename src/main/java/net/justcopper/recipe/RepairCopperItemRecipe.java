@@ -111,7 +111,7 @@ public class RepairCopperItemRecipe extends SpecialCraftingRecipe {
         }
 
         public boolean matches() {
-            return this == EMPTY || !toolStack.isEmpty() && !materialStack.isEmpty();
+            return this != EMPTY && !toolStack.isEmpty() && !materialStack.isEmpty();
         }
     }
 }
