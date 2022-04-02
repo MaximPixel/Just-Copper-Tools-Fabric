@@ -92,6 +92,7 @@ public class RepairCopperItemRecipe extends SpecialCraftingRecipe {
         return JustCopperTools.REPAIR_COPPER_ITEM;
     }
 
+    @SuppressWarnings("ClassCanBeRecord")
     private static class MatchResult {
         public static final MatchResult EMPTY = new MatchResult(ItemStack.EMPTY, ItemStack.EMPTY);
 

@@ -6,6 +6,7 @@ import net.minecraft.util.Lazy;
 
 import java.util.function.Supplier;
 
+@SuppressWarnings("deprecation")
 public class CustomToolMaterial implements ToolMaterial {
     private final int durability;
     private final float miningSpeed;
